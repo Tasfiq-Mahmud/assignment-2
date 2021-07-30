@@ -86,7 +86,7 @@ p{
 
 /* footer styles */
 .foot{
-    width: 483.87px;
+    width: 483px;
     height: 213px;
     display: flex;
     flex-direction: column;
@@ -123,5 +123,12 @@ p{
     .players{
         width: 350px;
         grid-template-columns: 1fr;
+    }
+    .foot{
+        width: 100%;
+    }
+    .foot-img img{
+        width: 330px;
+        height: 130px;
     }
 }
